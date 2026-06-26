@@ -11,19 +11,6 @@ body{
     background:#f5f5f5;
     margin:0;
 }
-<!DOCTYPE html>
-<html lang="bn">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Call Boy Job</title>
-
-<style>
-body{
-    font-family: Arial, sans-serif;
-    background:#f5f5f5;
-    margin:0;
-}
 
 .chat{
     max-width:500px;
@@ -96,7 +83,7 @@ body{
 <!-- PAGE 1 -->
 <div class="page active" id="page1">
 <div class="box">
-<div class="title">🌟✨💎 👑 "প্লে বয় কল জব নেটওয়ার্কে আপনাকে স্বাগতম।" 👑 💎✨🌟</div>
+<div class="title">🌟✨💎 👑 প্লে বয় কল জব নেটওয়ার্কে আপনাকে স্বাগতম 👑 💎✨🌟</div>
 <div class="headline">🤝 অভিজাত পরিবারের নারী অতিথি ও আন্তর্জাতিক ভিজিটরদের জন্য বিশ্বস্ত ও ভদ্র পুরুষ সদস্যদের সংযুক্ত করার একটি বিশেষ নেটওয়ার্ক। 🤝</div>
 <div class="details">
 📋 **আপনার দায়িত্বসমূহ:**
@@ -165,3 +152,121 @@ body{
 </button>
 </div>
 </div>
+
+<!-- PAYMENT -->
+<div class="page" id="page4">
+<div class="box">
+
+<h3>Payment Method</h3>
+
+<label>
+<input type="radio" name="pay">
+bKash - 01842151907
+</label>
+
+<br><br>
+
+<label>
+<input type="radio" name="pay">
+Nagad / Rocket - 01722144619
+</label>
+
+<br><br>
+
+<!-- INSTRUCTION TEXT -->
+<p style="margin-top:15px; font-size:14px; color:#333; line-height:1.6;">
+
+👉 পেমেন্ট করার জন্য উপরের যেকোনো নাম্বার কপি করে <b>Send Money</b> করুন।<br><br>
+
+👉 Send Money সম্পন্ন হলে নিচে আপনার <b>Transaction ID (TRX ID)</b> দিয়ে কনফার্ম করুন।<br><br>
+
+⚠️ ভুল TRX ID দিলে আপনার আবেদন গ্রহণ করা হবে না।
+
+</p>
+<br><br>
+
+<input
+type="text"
+placeholder="Transaction ID"
+style="width:100%;padding:10px;"
+>
+
+<button class="btn pay" onclick="nextPage(5)">
+Submit
+</button>
+
+</div>
+</div>
+
+<!-- TELEGRAM -->
+<div class="page" id="page5">
+<div class="box">
+
+<h2>ধন্যবাদ</h2>
+
+<p>আপনার তথ্য সফলভাবে গ্রহণ করা হয়েছে। নিচের মাধ্যমে যোগাযোগ করুন:</p>
+
+<div class="telegram">
+
+<!-- ADMIN SUPPORT -->
+<a href="@PLAYBOYCALLJOBBD" target="_blank"
+style="
+display:block;
+background:#0088cc;
+color:white;
+padding:12px;
+text-decoration:none;
+border-radius:10px;
+font-weight:bold;
+margin-bottom:10px;
+text-align:center;
+">
+📩 Admin Support
+</a>
+
+<!-- PUBLIC GROUP -->
+<a href="https://t.me/+wEYZAEQ_7ZE5ODQ1" target="_blank"
+style="
+display:block;
+background:#28a745;
+color:white;
+padding:12px;
+text-decoration:none;
+border-radius:10px;
+font-weight:bold;
+margin-bottom:15px;
+text-align:center;
+">
+👥 Join Public Group
+</a>
+
+<!-- TELEGRAM LOGO -->
+<a href="https://t.me/Eliteserviceadmin" target="_blank">
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg"
+style="width:120px;margin-top:10px;">
+</a>
+
+<p style="margin-top:10px;">
+Telegram এ যোগাযোগ করতে লোগোতে ক্লিক করুন
+</p>
+
+</div>
+
+</div>
+</div>
+
+</div>
+
+<script>
+function nextPage(page){
+document.querySelectorAll('.page')
+.forEach(p=>p.classList.remove('active'));
+
+document
+.getElementById('page'+page)
+.classList.add('active');
+}
+</script>
+
+</body>
+</html>
